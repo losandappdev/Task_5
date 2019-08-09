@@ -1,9 +1,11 @@
 package com.n.task_5;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +20,13 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "onCreate: ");
     }
 
+    public void onClickButton(View view) {
+
+        Fragment fragment = new DinamicFragment();
+
+        getSupportFragmentManager().beginTransaction()
+        .add(R.id.frama_layout_frafment, fragment).commit();
+    }
 
     @Override
     protected void onStart() {
@@ -54,4 +63,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.d(TAG, "onDestroy: ");
     }
+
+
 }
