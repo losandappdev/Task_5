@@ -18,8 +18,8 @@ public class task6_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task6_1);
 
-        editText =  findViewById(R.id.edit_text_activity_task6_1);
-        textView =  findViewById(R.id.text_view_activity_task6_1);
+        editText = findViewById(R.id.edit_text_activity_task6_1);
+        textView = findViewById(R.id.text_view_activity_task6_1);
 
         editText.addTextChangedListener(new TextWatcher() {
             @Override

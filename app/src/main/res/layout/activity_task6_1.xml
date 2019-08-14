@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".task6_1">
+    tools:context=".task6_1"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/edit_text_activity_task6_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/edittext"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="43dp" />
 
@@ -17,7 +18,7 @@
         android:id="@+id/text_view_activity_task6_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/textview"
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="132dp" />
 
