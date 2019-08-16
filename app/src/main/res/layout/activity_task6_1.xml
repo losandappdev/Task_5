@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task6_1"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_activity_task6_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/text_view_activity_task6_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+</LinearLayout>
