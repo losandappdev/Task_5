@@ -7,9 +7,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
+
+    List<ItemContact> list;
+
+//    ItemContact new contact1("Semen", "Semionovich");
 
 
     @Override
@@ -17,8 +25,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.d(TAG, "onCreate: ");
-    }
+
+        list = new ArrayList<>();
+
+
+
+
+=    }
 
     public void onClickButton(View view) {
 
